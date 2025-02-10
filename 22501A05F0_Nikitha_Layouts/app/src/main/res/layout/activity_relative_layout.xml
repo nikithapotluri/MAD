@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <EditText
+        android:id="@+id/type_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appl_form"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@id/enter_name"
+        android:hint="type here" />
+
+    <TextView
+        android:id="@+id/appl_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Form"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/enter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appl_form"
+        android:layout_marginTop="24dp"
+        android:text="Enter Name :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/type_here1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appl_form"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="69dp"
+        android:layout_toRightOf="@id/enter_name"
+        android:hint="type here" />
+
+    <TextView
+        android:id="@+id/roll_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_name"
+        android:layout_marginTop="21dp"
+        android:text="Enter Roll Number :"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/roll_num"
+        android:layout_marginTop="24dp"
+        android:text="Submit" />
+
+</RelativeLayout>
